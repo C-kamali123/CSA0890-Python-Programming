@@ -1,0 +1,5 @@
+num=float(input("enter a num:"))
+square=num*num
+cube=num*num*num
+print(f"square of number is",square)
+print(f"cube of the number:",cube)

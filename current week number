@@ -1,0 +1,4 @@
+import datetime
+now = datetime.datetime.now()
+week_number = now.isocalendar()[1]
+print("Current week number: ", week_number)

@@ -1,0 +1,6 @@
+string=input("enter:")
+count=0
+for i in string:
+    if i=='v' or i=='V':
+        count=count+1
+print("nof v:",count)

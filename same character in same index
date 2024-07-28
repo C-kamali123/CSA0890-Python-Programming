@@ -1,0 +1,8 @@
+str1="saveetha"
+str2="saveetha"
+count=0
+length=min(len(str1),len(str2))
+for i in range(length):
+    if str1[i]==str2[i]:
+        count=count+1
+print(count)

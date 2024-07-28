@@ -1,0 +1,7 @@
+a=[1,2,2,3,4,5]
+target=[]
+for i in range(len(a)):
+    if a[i] not in target:
+        target.append(a[i])
+        print(target)
+
